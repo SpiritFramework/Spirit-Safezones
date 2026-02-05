@@ -7,7 +7,7 @@ description 'Optimized SafeZone System with Speed Limit & Notifications'
 version '2.0.0'
 
 dependencies {
-    'ghost-notifications'
+    'Spirit-notifications'
 }
 
 shared_scripts {
