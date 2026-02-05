@@ -1,16 +1,10 @@
 # 🛡️ Spirit-SafeZone
 
-&lt;div align="center"&gt;
-
 [![Version](https://img.shields.io/badge/version-2.0.0-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-yellow)]()
 [![Status](https://img.shields.io/badge/status-stable-brightgreen)]()
 
 **A lightweight, customizable FiveM safe zone script with visual boundaries and zone protection.**
-
-[Features](#-features) • [Dependencies](#-dependencies--requirements) • [Installation](#-installation)
-
-&lt;/div&gt;
 
 ---
 
