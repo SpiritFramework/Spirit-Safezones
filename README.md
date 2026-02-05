@@ -8,28 +8,46 @@
 
 **A lightweight, customizable FiveM safe zone script with visual boundaries and zone protection.**
 
-[Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Usage](#-usage)
+[Features](#-features) • [Dependencies](#-dependencies--requirements) • [Installation](#-installation)
 
 &lt;/div&gt;
 
 ---
 
+## ⚠️ Dependencies & Requirements
+
+&gt; **IMPORTANT:** This script requires **[Spirit-Notifications]** to function properly.
+
+| Dependency | Required | Description | Download |
+|------------|----------|-------------|----------|
+| **[Spirit-Notifications]** | ✅ **Required** | Custom notification system for enter/exit alerts | [GitHub](https://github.com/yourusername/YourNotificationSystem) |
+
+---
+
 ## 📋 Features
 
-- 🎯 **Circular Zones** - See the zones on your mini-map / Big Map
+- 🎯 **Circular Zones** - Shows Safezones on mini map / big map.
 - 👁️ **Visual Boundaries** - Configurable markers showing zone limits
 - 🚫 **Weapon Control** - Disable/enable weapons inside safe zones
 - 🚗 **Vehicle Protection** - Optional god mode for vehicles in zones
 - 🎨 **Fully Customizable** - Easy configuration via config file
 - ⚡ **Optimized** - Low resource usage (0.01-0.03ms)
-- 🔔 **Notifications** - Visual alerts when entering/leaving zones
+- 🔔 **Notifications** - Visual alerts when entering/leaving zones *(via Spirit-Notfications)*
 
 ---
 
 ## 🚀 Installation
 
-1. **Download** the latest release from the [releases page](https://github.com/yourusername/SafeZones/releases)
+### Step 1: Install Dependencies
 
-2. **Extract** the folder into your FiveM resources directory:
-   ```bash
-   [resources]/SafeZones/
+**You MUST install [Spirit-Notfications] first:**
+
+```bash
+# 1. Download Spirit-Notfications
+git clone https://github.com/yourusername/YourNotificationSystem.git
+
+# 2. Add to your server resources
+[resources]/Spirit-Notfications/
+
+# 3. Ensure it in server.cfg (BEFORE SafeZone)
+ensure Spirit-Notfications
