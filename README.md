@@ -14,7 +14,7 @@
 
 | Dependency | Required | Description | Download |
 |------------|----------|-------------|----------|
-| **[Spirit-Notifications]** | ✅ **Required** | Custom notification system for enter/exit alerts | [GitHub](https://github.com/yourusername/YourNotificationSystem) |
+| **[Spirit-Notifications]** | ✅ **Required** | Custom notification system for enter/exit alerts | [GitHub](https://github.com/SpiritFramework/Spirit-Notifications-FiveM) |
 
 ---
 
@@ -38,7 +38,7 @@
 
 ```bash
 # 1. Download Spirit-Notfications
-git clone https://github.com/yourusername/YourNotificationSystem.git
+Download https://github.com/SpiritFramework/Spirit-Notifications-FiveM
 
 # 2. Add to your server resources
 [resources]/Spirit-Notfications/
