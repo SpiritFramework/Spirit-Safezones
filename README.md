@@ -48,7 +48,7 @@ ensure Spirit-Notfications
 
 ### Step 2: Install Spirit-Safezones
 
-# 1. **Download** the latest release from the [releases page](https://github.com/SpiritFramework/Spirit-Safezones)
+# 1. **Download** the latest release from the [releases page](https://github.com/SpiritFramework/Spirit-Safezones-FiveM)
 
 # 2. **Extract** the folder into your FiveM resources directory:
    ```bash
