@@ -2,7 +2,7 @@ local Config = {
     versionCheck = true,
     resourceName = "SafeZones",
     currentVersion = "2.0.0",
-    versionUrl = "https://raw.githubusercontent.com/Swqppingg/SafeZones/main/version.txt"
+    versionUrl = "https://raw.githubusercontent.com/SpiritFramework/Spirit-Safezones-FiveM/refs/heads/main/version.txt"
 }
 
 -- Permission Check
@@ -23,7 +23,7 @@ if Config.versionCheck then
             if latestVersion ~= Config.currentVersion then
                 print(string.format("\n^1[%s]^0 Version mismatch: current ^3%s^0, latest ^2%s^0", 
                     Config.resourceName, Config.currentVersion, latestVersion))
-                print(string.format("^1[%s]^0 Please update from: https://github.com/Swqppingg/SafeZones\n", 
+                print(string.format("^1[%s]^0 Please update from: https://github.com/SpiritFramework/Spirit-Safezones-FiveM\n", 
                     Config.resourceName))
             else
                 print(string.format("^2[%s]^0 Running latest version (%s)", 
